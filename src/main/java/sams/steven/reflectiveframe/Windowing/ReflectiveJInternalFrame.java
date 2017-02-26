@@ -3,6 +3,10 @@ package sams.steven.reflectiveframe.Windowing;
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * @author Steven Sams
+ */
+
 public class ReflectiveJInternalFrame extends JInternalFrame {
 
     public ReflectiveJInternalFrame(String title) {

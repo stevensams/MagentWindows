@@ -3,6 +3,10 @@ package sams.steven.reflectiveframe;
 import sams.steven.reflectiveframe.Windowing.Desktop;
 import sams.steven.reflectiveframe.Windowing.ReflectiveJInternalFrame;
 
+/**
+ * @author Steven Sams
+ */
+
 public class App
 {
     private static final int FRAME_COUNT = 10;
@@ -16,5 +20,6 @@ public class App
             frame.setLocation(i);
             frame.setVisible(true);
         }
+        pane.validate();
     }
 }

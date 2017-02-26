@@ -4,6 +4,10 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 
+/**
+ * @author Steven Sams
+ */
+
 public class Desktop extends JFrame {
 
     public Desktop() {
